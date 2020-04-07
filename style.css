@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+<<<<<<< Updated upstream
 .container {
     width: 1352px;
     margin: 0 auto;
@@ -13,6 +14,12 @@ a.logo {
     font-family: 'Raleway', sans-serif;
     font-size: 32px;
     color: #08A6E4;
+=======
+a.logo {
+    font-family: Raleway, sans-serif;
+    font-size: 32px;
+    color: #08a6e4;
+>>>>>>> Stashed changes
     text-decoration: none;
     line-height: 70px;
 }
@@ -22,8 +29,17 @@ nav {
     height: 70px;
     position: sticky;
     top: 0;
+<<<<<<< Updated upstream
     background-color: white;
     z-index: 5;
+=======
+    background: white;
+}
+
+.container {
+    width: 1352px;
+    margin: 0 auto;
+>>>>>>> Stashed changes
 }
 
 nav .container {
@@ -36,19 +52,35 @@ nav li {
     padding: 0 12px;
     margin-left: 71px;
     line-height: 70px;
+<<<<<<< Updated upstream
     font-family: 'Open Sans', sans-serif;
     font-size: 11px;
     font-weight: bold;
+=======
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+>>>>>>> Stashed changes
 }
 
 nav li a {
     text-decoration: none;
+<<<<<<< Updated upstream
     color: #A5A5A5;
+=======
+    color: #a5a5a5;
+>>>>>>> Stashed changes
     letter-spacing: 3.28px;
 }
 
 nav li.active {
+<<<<<<< Updated upstream
     border-bottom: 4px solid #08A6E4;
+=======
+    color: black;
+    border-bottom: 4px solid #08a6e4;
+>>>>>>> Stashed changes
     height: 70px;
 }
 
@@ -57,13 +89,19 @@ nav li.active a {
 }
 
 header {
+<<<<<<< Updated upstream
     background-image: url("Background.png");
+=======
+    font-family: Raleway, sans-serif;
+    background-image: url("images/Background.png");
+>>>>>>> Stashed changes
     background-position: bottom;
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
+<<<<<<< Updated upstream
 header .container {
     text-align: center;
 }
@@ -119,11 +157,48 @@ article{
 
 .icon1 {
     background-color: #FB3B64;
+=======
+/* header div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+} */
+
+header h1 {
+    margin: 130px auto 20px;
+    text-align: center;
+    width: 229px;
+    height: 57px;
+}
+
+header p {
+    text-align: center;
+    margin: 0 auto;
+    width: 384px;
+    height: 22px;
+}
+
+header a {
+    display: inline-block;
+    margin-top: 60px;
+    text-align: center;
+    padding: 22px 157px 23px;
+    background-color: #08A6E4;
+    border-radius: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.icon {
+    background-color: lightblue;
+>>>>>>> Stashed changes
     border-radius: 50%;
     height: 62px;
     width: 62px;
     line-height: 62px;
     padding-left: 30px;
+<<<<<<< Updated upstream
     margin: 0 auto;
 }
 
@@ -159,3 +234,9 @@ p.article-title{
     font-size: 17px;
     color: #A5A5A5;
 }
+=======
+}
+
+
+
+>>>>>>> Stashed changes
